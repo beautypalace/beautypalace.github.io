@@ -1,0 +1,101 @@
+body {
+  background: #222222;
+  overflow-x: hidden;
+}
+
+.location {
+  margin: 2em 0.2em;
+  display: flex;
+  flex-direction: column;
+  .gdesmo {
+    display: flex;
+    flex-direction: column-reverse;
+    .adresa-slika {
+      transition: 500ms;
+      height: 15em;
+      margin:2em 1em;
+    }
+    .adresa-txt {
+      background:rosybrown;
+      padding-left: 1em;
+      h1{
+        font-weight: 500;
+      }
+      span{
+        text-shadow: 1px 1px 2px black;
+        margin-left: 0.1em;
+       
+      }
+      h2{
+        margin-bottom: 1.2em;
+      }
+      h3{
+        margin-bottom: 1em;
+      }
+      *{
+       margin: 0.3em;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        font-weight: 300;
+      }
+      
+    }
+  }
+}
+.contact-us {
+  margin: 1em 0.2em;
+  display: flex;
+  flex-direction: column;
+  h3 {  
+    margin-top: 0.51em;
+    margin-bottom: 1em;
+    padding: 1em 0;
+    background: rosybrown;
+    font-weight: 300;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: start;
+    align-self: flex-start;
+    span{
+      color: white;
+      padding: 0 0.4em;
+      font-size: 1.4rem;
+    }
+
+  }
+}
+.first{
+  border-bottom: 2px solid rosybrown;
+}
+.location-logo {
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+  margin: 0.2em 0;
+}
+.location-links {
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  * {
+    font-size: 3rem;
+  }
+}
+.mailbtn {
+  transition: 500ms;
+  align-self: center;
+  text-decoration: none;
+  font-size: 2rem;
+  background: rosybrown;
+  font-weight: 300;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  margin: 1em 0;
+  padding: 0.2em 0.5em;
+  border-radius: 1em;
+  outline: none;
+}
+
+

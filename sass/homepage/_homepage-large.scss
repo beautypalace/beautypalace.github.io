@@ -1,0 +1,162 @@
+body {
+  background: #444444;
+  overflow-y: none;
+}
+
+//HEADER WITH THE CHAROUSEL WHEEL
+//HEADER AND CHAROUSEL WHEEL 
+header{
+  justify-content: space-around;
+  display: flex;
+  .slide-header{
+    margin: -1em auto;
+    margin-bottom: -5em;
+    width: 80%;
+    .single-slider{
+      text-align: center;
+      cursor: pointer;
+      padding:  auto;
+      .slider-image-container{
+        display: block;
+        margin: 1em auto;
+        width:100vw;
+        height: 700px;
+        img{
+          opacity: 0.7;
+          width: 80%;
+          height: 100%;
+          object-fit: cover;
+        }
+        
+      }
+      .slick-header{
+        transform: translateY(-350px);
+        font-size: 2rem;
+        *{
+          color: white;
+          text-shadow: 1px 1px 1px  black;
+        }
+        
+      }
+    }
+  }
+  .header-prev,.header-next{
+    height: 700px;
+    width: 10%;
+    background: transparent;
+    border: none;
+    font-size: 10rem;
+    border: 1px solid rosybrown;
+    transition: 500ms;
+   
+      &:hover{
+        cursor: pointer;
+        background: rosybrown;
+        i{
+          color: white;
+        }
+        border: 2px solid white;
+       }
+    
+   
+    
+  }
+}
+//BODY
+.head-name {
+
+  font-size: 4rem;
+  font-weight: 1000;
+  padding-left: 1em;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 1em;
+  color: rosybrown;
+  text-shadow: 1px 1px 1px black;
+}
+.head-quote {
+  margin: 0.5em;
+  text-align: right;
+  padding-right: 1em;
+  display: flex;
+  font-size: 1.8rem;
+  flex-direction: column;
+  background-color: rosybrown;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  * {
+    font-size: 1.8rem;
+    color: white;
+    margin: 0.4em;
+  }
+}
+.head-body {
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    
+  .article-image-container {
+    margin: 1em 0;
+    padding: 0.2em;
+  }
+  .head-body-text {
+    text-align: left;
+    margin: 1em;
+    font-size: 1.5rem;
+  }
+}
+.reviews {
+  margin: 2em 1em;
+.slide {
+  background: transparent;
+  border: 2px solid rosybrown;
+  padding: 2em 0.5em;
+ 
+  *{
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: rosybrown;
+   
+  }
+  .slide-name{
+    text-align: right;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+}
+.reviews-btns {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  button {
+    flex-basis: 30%;
+    padding: 0.1em;
+    font-size: 1.6rem;
+    background: transparent;
+    border: 2px solid rosybrown;
+    transition: 500ms;
+    border-radius: 0.5em;
+    cursor: pointer;
+    &:hover{
+     background: rosybrown;
+     color: white;
+     border: 2px solid white;
+    }
+  }
+}
+}
+// FOOTER
+footer {
+  margin-top: 2em;
+  padding: 0.5em 1em;
+  font-size: 2rem;
+  padding-bottom: 1.5em;
+  color: white;
+  background: rosybrown;
+  text-shadow: 1px 1px 1px black;
+}
+#nav-active {
+  color: rosybrown;
+  padding: 0 5px;
+  border-bottom: 1px solid rosybrown;
+}
