@@ -6,9 +6,6 @@
   font-family: "Comfortaa", cursive;
   color: rosybrown;
 }
-body{
-  overflow-x: hidden;
-}
 html {
   scroll-behavior: smooth;
 }
@@ -28,7 +25,7 @@ h2 {
 }
 body {
   background: #222222;
-  overflow-y: none;
+  overflow-y: hidden;
 }
 //animations
 @import "./helpers/animations";
