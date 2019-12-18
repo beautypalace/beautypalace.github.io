@@ -8,6 +8,10 @@
   color: rosybrown;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -355,7 +359,7 @@ body {
 @media (min-width: 900px) {
   body {
     background: #444444;
-    overflow-y: none;
+    overflow-y: hidden;
   }
   header {
     -ms-flex-pack: distribute;
@@ -524,7 +528,7 @@ body {
   }
   body {
     background: #222222;
-    overflow-y: none;
+    overflow-y: hidden;
   }
   .twovideo-container {
     display: -webkit-box;
@@ -769,7 +773,7 @@ body {
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
-    height: 550px;
+    height: 650px;
   }
   .price-single .overlay {
     position: absolute;
@@ -817,7 +821,7 @@ body {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin-bottom: 20em;
+    margin-bottom: 2em;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
@@ -883,7 +887,7 @@ body {
             animation: 500ms ease-in;
   }
   body {
-    overflow-y: none;
+    overflow-y: hidden;
   }
   .reverse {
     display: -webkit-box;
@@ -939,7 +943,7 @@ body {
 @media (max-width: 600px) {
   body {
     background: #444444;
-    overflow-y: none;
+    overflow-y: hidden;
   }
   header {
     -ms-flex-pack: distribute;
@@ -1059,7 +1063,7 @@ body {
   }
   body {
     background: #222222;
-    overflow-y: none;
+    overflow-y: hidden;
   }
   .single-video-container {
     margin: 1em 0.5em;
@@ -1291,6 +1295,9 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .pricing-large {
+    height: 450px;
+  }
   body {
     background: #222222;
     overflow-x: hidden;
@@ -1351,7 +1358,7 @@ body {
             animation: 500ms ease-in;
   }
   body {
-    overflow-y: none;
+    overflow-y: hidden;
   }
   .about-text-image {
     margin: 2em 1em;
@@ -1391,7 +1398,7 @@ body {
 @media (min-width: 600px) and (max-width: 900px) {
   body {
     background: #444444;
-    overflow-y: none;
+    overflow-y: hidden;
   }
   header {
     -ms-flex-pack: distribute;
@@ -1509,7 +1516,7 @@ body {
   }
   body {
     background: #222222;
-    overflow-y: none;
+    overflow-y: hidden;
   }
   .single-video-container {
     margin: 1em;
@@ -1740,6 +1747,9 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .pricing-large {
+    height: 520px;
+  }
   body {
     background: #222222;
     overflow-x: hidden;
@@ -1804,7 +1814,7 @@ body {
             animation: 500ms ease-in;
   }
   body {
-    overflow-y: none;
+    overflow-y: hidden;
   }
   .about-text-image {
     margin: 2em auto;
