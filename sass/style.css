@@ -359,7 +359,6 @@ body {
 @media (min-width: 900px) {
   body {
     background: #444444;
-    overflow-y: hidden;
   }
   header {
     -ms-flex-pack: distribute;
@@ -528,7 +527,6 @@ body {
   }
   body {
     background: #222222;
-    overflow-y: hidden;
   }
   .twovideo-container {
     display: -webkit-box;
@@ -614,7 +612,6 @@ body {
   }
   body {
     background: #222222;
-    overflow-x: hidden;
   }
   .main-contact-container {
     display: -webkit-box;
@@ -746,7 +743,6 @@ body {
   }
   body {
     background: #222222;
-    overflow-x: hidden;
   }
   .pricing-menu {
     display: -webkit-box;
@@ -812,7 +808,6 @@ body {
   }
   body {
     background: #222222;
-    overflow-x: hidden;
   }
   .services-container {
     margin: 0 auto;
@@ -886,9 +881,6 @@ body {
     -webkit-animation: 500ms ease-in;
             animation: 500ms ease-in;
   }
-  body {
-    overflow-y: hidden;
-  }
   .reverse {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -943,7 +935,6 @@ body {
 @media (max-width: 600px) {
   body {
     background: #444444;
-    overflow-y: hidden;
   }
   header {
     -ms-flex-pack: distribute;
@@ -1063,7 +1054,6 @@ body {
   }
   body {
     background: #222222;
-    overflow-y: hidden;
   }
   .single-video-container {
     margin: 1em 0.5em;
@@ -1127,7 +1117,6 @@ body {
   }
   body {
     background: #222222;
-    overflow-x: hidden;
   }
   .location {
     margin: 2em 0.2em;
@@ -1246,7 +1235,6 @@ body {
   }
   body {
     background: #222222;
-    overflow-x: hidden;
   }
   .pricing-menu {
     margin: 1em;
@@ -1300,7 +1288,6 @@ body {
   }
   body {
     background: #222222;
-    overflow-x: hidden;
   }
   .service-single {
     margin: 2em 0.5em;
@@ -1398,7 +1385,6 @@ body {
 @media (min-width: 600px) and (max-width: 900px) {
   body {
     background: #444444;
-    overflow-y: hidden;
   }
   header {
     -ms-flex-pack: distribute;
@@ -1516,7 +1502,6 @@ body {
   }
   body {
     background: #222222;
-    overflow-y: hidden;
   }
   .single-video-container {
     margin: 1em;
@@ -1580,7 +1565,6 @@ body {
   }
   body {
     background: #222222;
-    overflow-x: hidden;
   }
   .location {
     margin: 2em 0.2em;
@@ -1695,7 +1679,6 @@ body {
   }
   body {
     background: #222222;
-    overflow-x: hidden;
   }
   .pricing-menu {
     margin: 1em auto;
@@ -1752,7 +1735,6 @@ body {
   }
   body {
     background: #222222;
-    overflow-x: hidden;
   }
   .services-container {
     margin: 0 auto;
@@ -1812,9 +1794,6 @@ body {
     border-top: none;
     -webkit-animation: 500ms ease-in;
             animation: 500ms ease-in;
-  }
-  body {
-    overflow-y: hidden;
   }
   .about-text-image {
     margin: 2em auto;
