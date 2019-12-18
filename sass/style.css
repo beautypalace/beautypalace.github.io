@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow: initial !important;
 }
 
 img {
@@ -30,7 +31,7 @@ h2 {
 
 body {
   background: #222222;
-  overflow-y: hidden;
+  overflow: auto;
 }
 
 @-webkit-keyframes slide-menu {
@@ -804,6 +805,7 @@ body {
   }
   body {
     background: #222222;
+    overflow: auto;
   }
   .services-container {
     margin: 0 auto;
@@ -1284,6 +1286,7 @@ body {
   }
   body {
     background: #222222;
+    overflow: auto;
   }
   .service-single {
     margin: 2em 0.5em;
@@ -1341,7 +1344,7 @@ body {
             animation: 500ms ease-in;
   }
   body {
-    overflow-y: hidden;
+    overflow: aut;
   }
   .about-text-image {
     margin: 2em 1em;
@@ -1731,6 +1734,7 @@ body {
   }
   body {
     background: #222222;
+    overflow: auto;
   }
   .services-container {
     margin: 0 auto;

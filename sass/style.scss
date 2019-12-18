@@ -5,9 +5,12 @@
   box-sizing: border-box;
   font-family: "Comfortaa", cursive;
   color: rosybrown;
+  
+
 }
 html {
   scroll-behavior: smooth;
+  overflow:initial !important;
 }
 img {
   width: 100%;
@@ -25,7 +28,7 @@ h2 {
 }
 body {
   background: #222222;
-  overflow-y: hidden;
+  overflow: auto;
 }
 //animations
 @import "./helpers/animations";
